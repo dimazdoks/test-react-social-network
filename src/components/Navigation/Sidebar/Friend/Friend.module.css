@@ -1,0 +1,9 @@
+.friend {
+    width: 60px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.friend img {
+    width: 40px;
+}

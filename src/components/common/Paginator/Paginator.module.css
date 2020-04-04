@@ -1,0 +1,11 @@
+.pagination {
+    padding: 2px;
+}
+
+.pagination:hover {
+    cursor: pointer;
+}
+
+.selectedPage {
+    font-weight: bold;
+}

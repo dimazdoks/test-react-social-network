@@ -1,0 +1,11 @@
+.sidebar {
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.friends {
+    padding: 20px;
+    background-color: azure;
+    width: 150px;
+    text-align: center;
+}

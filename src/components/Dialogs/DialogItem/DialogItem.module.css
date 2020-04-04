@@ -1,0 +1,11 @@
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems.active {
+    color: aquamarine;
+}
+
+.dialogsItems img {
+    width: 40px;
+}

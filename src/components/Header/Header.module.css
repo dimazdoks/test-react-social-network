@@ -1,0 +1,20 @@
+.header {
+    grid-area: header;
+    background-color: aquamarine;
+    text-align: center;
+    height: 160px;
+  }
+
+.header div {
+    display: inline-block;
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    align-content: center;
+  }
+
+
+.header>div>img {
+    width: 100%;
+}

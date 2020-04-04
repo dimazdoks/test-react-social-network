@@ -1,0 +1,17 @@
+.forms_control {
+    padding: 10px;
+}
+
+.forms_control.error textarea,
+.forms_control.error input {;
+    border: 2px solid #fa4463;
+}
+
+.forms_control.error span,
+.formSummaryError {
+    border: 1px solid #fa4463;
+    color: #fa4463;
+    background-color: rgba(138, 237, 202, 0.65);
+
+    padding: 8px 4px;
+}
