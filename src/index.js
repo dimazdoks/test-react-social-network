@@ -9,13 +9,13 @@ import {Provider} from "react-redux";
 
 ReactDOM.render(
     //Using HashRouter for GitHub deploying
-    <HashRouter>
-        {/*<BrowserRouter basename={process.env.PUBLIC_URL}>*/}
+    // <HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Provider store={store}>
             <App/>
         </Provider>
-        {/*</BrowserRouter>*/}
-    </HashRouter>, document.getElementById('root'));
+    </BrowserRouter>, document.getElementById('root'));
+// </HashRouter>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

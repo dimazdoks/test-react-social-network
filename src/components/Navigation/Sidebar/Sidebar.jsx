@@ -3,7 +3,7 @@ import s from './Sidebar.module.css'
 import Friend from "./Friend/Friend";
 
 function Sidebar(props) {
-    let onlineFriendsList = props.listOnline.map( f => <Friend name={f.name} img={f.img}/>);
+    let onlineFriendsList = props.listOnline.map( (f, key) => <Friend key={key} name={f.name} img={f.img}/>);
 
     return (
         <div className={s.sidebar}>

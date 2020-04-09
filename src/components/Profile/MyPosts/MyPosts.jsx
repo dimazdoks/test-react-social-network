@@ -6,7 +6,7 @@ import {maxLengthCreator, required} from "../../../utils/validators/validator";
 import {Textarea} from "../../common/FormsControls/FormsControl";
 
 const MyPosts = (props) => {
-    let postsItems = props.posts.map(p => <Post message={p.message} likesCount={p.like}/>);
+    let postsItems = props.posts.map((p, key) => <Post key={key} message={p.message} likesCount={p.like}/>);
 
     let addNewPost = (value) => {
         props.addPost(value.newPostBody);
